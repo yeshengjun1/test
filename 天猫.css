@@ -1,0 +1,51 @@
+.nav {
+	height: 30px;
+
+}
+.navbox {
+	height: 30px;
+	width: 1100px;
+	margin: 0 auto;
+	background-color: #FFB7DD;
+}
+.leftbox{
+	float: left;
+}
+.leftbox a,span {
+	margin-right: 10px;
+}
+
+ul.navright {
+	float: right;
+	list-style: none;
+}
+ul.navright li{
+	float: left;
+	margin-right: 10px;
+}
+
+.merc {
+	display: none;
+	top: 10px;
+	left: 200px;
+	position: relative;
+	height: 200px;
+	width: 130px;
+	/*background: #FFB7DD;*/
+}
+.merc p{
+	margin-top: 1px;
+	font-size: 15px;
+}
+p .left{
+	margin-right: 10px;
+}
+hr {
+	margin: 10px 0 10px 0; 
+		
+	size: 1;
+	border: 1px dashed #AAAAAA;
+}
+#xial:hover .merc{
+	display: block;
+}
