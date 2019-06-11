@@ -1,3 +1,4 @@
+
 .nav {
 	height: 40px;
 	background: #f2f2f2;
@@ -57,7 +58,6 @@ p .left{
 		
 	size: 1;
 	border: 1px dashed #AAAAAA;
-
 }*/
 .help{
 	height: 70px;
@@ -79,24 +79,26 @@ a.right {
 	position: relative;
 	/*line-height: 130px;*/
 }
-.header a img{
-	margin-left: 59.5px;
+.searchbox a img{
+	margin-left: -45px;
 	height: 130px;
 	width: 290px;
-	position: absolute;
+	position:absolute;
 }
 .searchbox{
 	height: 106px;
-	width: 625px;
+	width: 1230px;
 	/*background:#ADD8E6;*/
 	margin: 0 auto;
 	display: block;
 	/*vertical-align: middle;*/
+	position: relative;
 }
 .search {
 	padding-top: 42px;
 	height: 36px;
 	width: 625px;
+	margin: 0 auto;
 	/*background: #BBFFEE;*/
 }
 .search input#bd1{
@@ -117,6 +119,7 @@ input:focus{
 	outline: none;
 }
 ul.rex{
+	margin: 0 auto;
 	margin-top: 10px;
 	list-style: none;
 }
@@ -147,7 +150,7 @@ ul.rex li a:hover {
 li#spfl {
 	margin-left: 14.5px;
 	background: red;
-	height: 36px;
+	height: 35.5px;
 	width: 200px;
 	position: relative;
 }
@@ -180,11 +183,112 @@ ul.middh li.dq a:hover{
 
 .zhuti {
 	height: 500px;
-	position: relative;
+	/*position: relative;*/
 }
 .zhutibox {
 	width: 1230px;
 	height: 500px;
 	margin: auto;
 	background: #BBFFEE;
+}
+.zhutibox .left-nav {
+	height: 500px;
+	width: 200px;
+
+	/*background: #FFDDAA;*/
+	float: left;
+	/*padding-left: 5px;*/
+	/*float: left;*/
+}
+ul.left-nav li{
+	height: 26px;
+	width: 200px;
+	/*background: pink;*/
+	margin-top: 2px;
+	text-align: center;
+	display: inline-block;
+}
+
+ul.left-nav li a{
+	font-size: 14px;
+	height: 26px;
+	line-height: 26px;
+	color: #666666;
+}
+ul.left-nav li:hover{
+	background-color: #DDD;
+}
+ul.left-nav li a:hover {
+	text-decoration: none;
+	color: red;
+}
+.lb {
+	height: 500px;
+	width: 630px;
+	float: left;
+}
+
+.imgbox {
+	margin-top: 10px;
+	height: 490px;
+	width: 630px;
+	/*background: #FFB7DD;*/
+	float: left;
+}
+.imgbox li{
+	position: absolute;
+}
+.imgbox li img{
+	height: 490px;
+	width: 630px;
+}
+.btn {
+	height: 100px;
+	position: relative;
+}
+.leftbtn{
+	margin-top: 200px;
+
+  	height: 0;
+  	width: 0;
+  	border-width: 30px;
+  	border-style: solid;
+  	border-color: transparent #666666 transparent transparent;
+  	opacity: 0.7;
+  	position: absolute;
+}
+.rightbtn{
+	margin-top: 200px;
+	right: 0px;
+  	height: 0;
+  	width: 0;
+  	border-width: 30px;
+  	border-style: solid;
+  	border-color: transparent  transparent  transparent #666666;
+  	opacity: 0.5;
+	position: absolute;
+}
+.btn .leftbtn:hover,.btn .rightbtn:hover{
+	opacity: 0.7;
+}
+
+.ydd{
+	width: 200px;
+	height: 36px;
+	/*background: #FFB7DD;*/
+	position: relative;
+	margin-top: 350px;
+	margin-left: 20px;
+}
+
+.ydd span{
+
+ 	 	margin-left: 1px;
+ 		height: 15px;
+  		width: 15px;
+ 		display: inline-block;
+  		border-radius: 50%;
+  		background: #CCC;
+  		opacity: 0.5;
+
 }
